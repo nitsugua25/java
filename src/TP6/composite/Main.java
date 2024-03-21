@@ -1,5 +1,6 @@
 package TP6.composite;
 
+
 public class Main {
     public static void main(String[] args) {
         Component file1 = new File("file1");
