@@ -1,3 +1,4 @@
+
 package TP5;
 
 import java.util.ArrayList;
@@ -25,3 +26,4 @@ public class Province implements Component {
         return temp;
     }
 }
+
