@@ -13,5 +13,4 @@ public class Main {
         System.out.println("est ce que "+txt+" est un nombre : "+valInt2.isValid());
         System.out.println("est ce que "+txt+" est un mail : "+valMail2.isValid());
     }
-
 }
