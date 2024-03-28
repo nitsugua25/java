@@ -13,9 +13,9 @@ public class Input {
     public void unsubscribes(Subscriber s){
         this.subscribers.remove(s);
     }
-    public void notifySubscriber(){
+    public void notifySubscriber(int value){
         for(Subscriber s:this.subscribers){
-            s.notify();
+            System.out.println(s.update(value));
         }
     }
 
