@@ -4,8 +4,9 @@ import java.util.ArrayList;
 
 public class DisplayCondition implements Display{
     @Override
-    public String display(ArrayList data) {
-        
-        return "";
+    public void display(ArrayList<ArrayList<Float>> data) {
+        ArrayList<Float> temp = data.get( (data.size()-1));
+        System.out.printf("Température : "+temp.get(0)+"°c - Humidité : "+temp.get(1)+ ">>");
+
     }
 }
